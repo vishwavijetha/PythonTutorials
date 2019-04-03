@@ -11,6 +11,7 @@ Declaration: { pattern = re.compile(r'regex pattern'), re.IGNORECASE | re.DOTALL
 
 Methods: { compile(), search(), findall(), groups(), group(), groupindex(), finditer(), split(), match(), sub(), subn()}
 
+
 Patterns: { \d, \D, \w, \W, \s, \S, 'abc', [abc], [a-zA-Z], (s)?, (s)*, (s)+, [^abc], [abc]$, ., .*, {n}, {n,}, {,m}, {n,m}}
 ================================================================================================================================
 """
