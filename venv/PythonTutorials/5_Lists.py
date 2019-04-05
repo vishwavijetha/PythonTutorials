@@ -135,3 +135,5 @@ x = ['z', 'y', 'x', 'c', 'b', 'a']
 print('x = ', x)
 x.clear()
 print('x.clear() --> ', x)
+print('\n')
+

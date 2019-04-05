@@ -55,3 +55,33 @@ log.info('hello')
 log.disable(log.CRITICAL)
 log.info('log is disabled')
 
+
+def array_function(*data):
+    print(data)
+
+
+array_function('Vishwa', 30, 'a@b.com')
+
+
+def dict_function(**data):
+    print(data)
+
+
+dict_function(name='vishwa', age=30, email='a@b.com')
+
+fun = lambda x, y: x * y
+
+print(fun(5,6))
+
+
+def is_even(n):
+    return n % 2 == 0
+
+
+nums = [1,2,3,4,5,6,7,8,9,10]
+evens = list(filter(is_even, nums))
+
+print(evens)
+
+evens = list(filter(lambda n: n % 2 == 0, nums))
+print(evens)

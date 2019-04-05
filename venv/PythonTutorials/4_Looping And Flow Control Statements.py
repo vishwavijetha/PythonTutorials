@@ -54,10 +54,15 @@ while i < 10:
     if i == 7:
         break
     elif i == 5:
-        continue
+        pass  # continue
     else:
         pass
     print(i)
     i += 1
+
+print('Comprehensions')
+nums = [1, 2, 3, 4]
+x = [i*2 for i in nums]
+print(x)
 
 

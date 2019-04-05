@@ -81,6 +81,9 @@ print('len(y): ', len(y))
 print('max(x): ', max(x))
 print('min(x): ', min(x))
 
+x = {1, 2, 3, 4, 4}
+print(x)
+
 
 
 
