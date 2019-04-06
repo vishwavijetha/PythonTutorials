@@ -3,12 +3,12 @@
 Author: Vishwa
 Date Created: 01/04/2019
 --------------------------
-Topic: Tuple Sets -- Immutable
+Topic: Tuples And Sets -- Immutable
 --------------------------
 
-Declaration: {x = (), x = (1,'Hi',2.75,None), x = (1, (1,2,3), (4,5,6), 5)}
+Declaration: {x = (tuple), x = {set}, x = (1,'Hi',2.75,None), x = (1, (1,2,3), (4,5,6), 5)}
 
-Methods: 11 --> {index(), count()}
+Methods: 11 --> {index(), count(), }
 
 Generic: --> {min(), max(), len()}
 ================================================================================================================================
@@ -81,9 +81,13 @@ print('len(y): ', len(y))
 print('max(x): ', max(x))
 print('min(x): ', min(x))
 
+
 x = {1, 2, 3, 4, 4}
 print(x)
 
+x = [1, 4, 1, 4]
+x = set(x)
+print(x)
 
 
 

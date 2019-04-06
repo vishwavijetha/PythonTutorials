@@ -115,3 +115,5 @@ print('x = ', x)
 x.clear()
 print('x.clear()', '\n', 'x = ', x)
 
+
+

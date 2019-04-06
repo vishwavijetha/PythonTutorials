@@ -16,16 +16,16 @@ Generic: {}
 
 
 class Employee:
-    empCount = 0
+    empCount = 0  # Class variable
 
     def __init__(self, name, salary):
         self.name = name
-        self.salary = salary
-        Employee.empCount += 1
+        self.salary = salary  # Usage of instance variable -- using self keyword
+        Employee.empCount += 1  # Usage of class variable -- using ClassName.variable
 
-    @staticmethod
-    def display_count():
-        print("Total Employee %d" % Employee.empCount)
+    @classmethod
+    def display_count(cls):
+        print("Total Employee %d" % cls.empCount)
 
     def display_employee(self):
         print("Name : ", self.name, ", Salary: ", self.salary)
@@ -36,6 +36,7 @@ emp2 = Employee('Vijetha', 2000)
 
 emp1.display_employee()
 emp2.display_employee()
+emp1.display_count()
 
 
 class A:
