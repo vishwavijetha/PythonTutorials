@@ -89,6 +89,8 @@ class Student2:
 
 s1 = Student2(100, 'Vishwa')
 s1.show()
+s2 = s1.Laptop()
+s2.show()
 
 
 class InheritanceA:
